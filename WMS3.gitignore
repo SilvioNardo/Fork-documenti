@@ -1,0 +1,7 @@
+#ignora tutti i file creati dal compilatore Latex che non sia .pdf
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.gz
+*.tex
