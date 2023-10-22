@@ -2,6 +2,7 @@
 1. A quanto ammonta la mole di documentazione su cui il modello deve essere in grado di rispondere? E qual è il livello di precisione della risposta voluto?
 2. L'interfacciamento tra OpenAI e il vector Database come può avvenire? 
 3. Per quanto riguarda la "chat history" menzionata nello schema nelle slide del capitolato, per ogni utente deve essere gestita anche la possibilità di riprendere chat interrotte e più chat contemporaneamente (stile chatGPT).
+4. è richiesto anche un qualche tipo di testing per il codice generato? 
 
 > Il capitolato si concentra molto sull'utilizzo di tecnologie moderne come l'intelligenza artificiale, offrendo spunti implementativi con finalità pratiche e di assistenza all'utente finale. 
 
@@ -16,11 +17,13 @@
 ## C3 Easy Meal
 1. Le richieste di prenotazione (da parte degli utenti) hanno un periodo oltre il quale scadono? (esempio: il ristorante deve confermare/rifiutare entro 30 minuti, al termine dei quali la richiesta è rifiutata)
 2. In caso non ci fosse alcun limite di tempo di accettazione, le richieste, qualora fossero per un giorno futuro, possono essere inviate anche fuori l'orario di apertura dell'attività?
+3. Esiste una casisistica riguardante il caso in cui dopo la prenotazione nessuno si presenti al locale?
+4. Per la chat è necessaria cifratura end to end e anche persistenza dei dati?
 
 > Il capitolato è molto corposo e ben strutturato. Le richieste sono molteplici ma il tema trattato è estemamente interessante. Il prodotto risulterebbe un applicativo utile e semplice da utilizzare, con vari aspetti Social e di interazione anche con altri utenti. 
 
 ## C4 Nuvolaris
-
+1. Cosa rende Nuvolaris cosi adatto a scrivere API?
 
 ## C5 Magazzino 3D
 1. Al fine di poter rappresentare i prodotti su ogni scaffale, le informazioni relative a dimensioni e posizionamento sono reperibili da database già popolati?
@@ -34,9 +37,10 @@
 
 
 ## C6 SyncCity
+1. Grafana è requisito fondamentale o sono accettati anche altre piattaforme di data visualization?
 
 ## C7 ChatGPT vs BedRock
-1. Non essendo in grado di accedere direttamente a github, come dovrebbe avvenire l'analisi del codice da parte di chatpgpt?
+1. Non essendo in grado di accedere direttamente a github, come dovrebbe avvenire l'analisi del codice da parte di chatgpt?
 2. Una volta generate le epic & user stories, come possiamo valutarne la bontà rispetto alle aspettative?
 3. E' possibile ottenere maggiori informazioni riguardo l’architettura basata su microservizi e lo sviluppo dei plugin?
 
@@ -49,7 +53,7 @@
 ## C9 ChatSQL
 1. Quali tecniche specifiche di ingegneria del prompt prevedete di utilizzare per ottimizzare le interazioni con i modelli di intelligenza artificiale? Avete già stabilito delle linee guida o delle best practice per la formulazione dei prompt?
 2. La creazione e l'addrestramento dei modelli richiede normalmente un dataset ampio e HW prestante (soprattutto durante la fase training). Queste componenti, in che modo verrebbero fornite?
-
+3. 
 
 
 
