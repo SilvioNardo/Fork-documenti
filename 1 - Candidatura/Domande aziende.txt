@@ -1,0 +1,90 @@
+## C1 Knowledge Management
+1. A quanto ammonta la mole di documentazione su cui il modello deve essere in grado di rispondere? E qual è il livello di precisione della risposta voluto?
+2. L'interfacciamento tra OpenAI e il vector Database come può avvenire? 
+3. Per quanto riguarda la "chat history" menzionata nello schema nelle slide del capitolato, per ogni utente deve essere gestita anche la possibilità di riprendere chat interrotte e più chat contemporaneamente (stile chatGPT).
+
+> Il capitolato si concentra molto sull'utilizzo di tecnologie moderne come l'intelligenza artificiale, offrendo spunti implementativi con finalità pratiche e di assistenza all'utente finale. 
+
+
+## C2 Sistema di raccomandazione
+1. La creazione e l'addrestramento dei modelli richiede normalmente un dataset ampio e HW prestante (soprattutto durante la fase training). Queste componenti, in che modo verrebbero fornite?
+
+> Opinioni personali: il capitolato verta sull'utilizzo di modelli di apprendimento al fine di creare un sistema di raccomandazione di prodotti ideale e mirato per ogni utente. 
+
+
+## C3 Easy Meal
+1. Le richieste di prenotazione (da parte degli utenti) hanno un periodo oltre il quale scadono? (esempio: il ristorante deve confermare/rifiutare entro 30 minuti, al termine dei quali la richiesta è rifiutata)
+2. In caso non ci fosse alcun limite di tempo di accettazione, le richieste, qualora fossero per un giorno futuro, possono essere inviate anche fuori l'orario di apertura dell'attività?
+
+> Il capitolato è molto corposo e ben strutturato. Le richieste sono molteplici ma il tema trattato è estemamente interessante. Il prodotto risulterebbe un applicativo utile e semplice da utilizzare, con vari aspetti Social e di interazione anche con altri utenti. 
+
+## C4 Nuvolaris
+
+
+## C5 Magazzino 3D
+1. Al fine di poter rappresentare i prodotti su ogni scaffale, le informazioni relative a dimensioni e posizionamento sono reperibili da database già popolati?
+2. Il sistema di codifica in righe/colonne può essere determinato direttamente da noi o deve essere modificabile dall'utente?
+3. Le scaffalature, per quanto modificabili a piacimento, devono rispettare delle misure standard o sono liberamente modificabili? (esempio: le scaffalature possono essere di 1m o 2m piuttosto che 1.37 m o misure non standard)
+4. Chi è il destinatario di un'eventuale richiesta di spostamento di un prodotto da uno scaffale all'altro? Al fine dello spostamento quindi vi è una notifica che conferma lo spostamento?
+5. Ai fini di sviluppo, come posso essere implementati test intensivi per un prodotto prettamente grafico? Consigliereste quale libreria o qualche approccio?
+6. Per eventuali difficoltà nella modellazione 3d di alcuni elementi, è possibile chiedere un aiuto all'azienda?
+
+> Il capitolato risulta estremamente interessante. Il prodotto finale rappresente un applicativo pratico e funzionale che apre la possibilità di modernizzare la gestione e l'organizzazione di magazzi di piccole, medie e grandi dimensioni. La possibilità di lavorare con strumenti grafici 3d rende il capitolato molto affascinante e rappresenta un stimolo per ogni membro del gruppo ad impegnarsi nel suo sviluppo.
+
+
+## C6 SyncCity
+
+## C7
+1. Non essendo in grado di accedere direttamente a github, come dovrebbe avvenire l'analisi del codice da parte di chatpgpt?
+2. Una volta generate le epic & user stories, come possiamo valutarne la bontà rispetto alle aspettative?
+3. E' possibile ottenere maggiori informazioni riguardo l’architettura basata su microservizi e lo sviluppo dei plugin?
+
+
+## C8
+1. Quali sono le limitazioni o i problemi con IMAP che l’azienda spera di superare con l’adozione di JMAP?
+2. Come dovremmo interfacciarci poi con Carbonio per iniziare l'implementazione di JMAP?
+
+
+## C9
+1. Quali tecniche specifiche di ingegneria del prompt prevedete di utilizzare per ottimizzare le interazioni con i modelli di intelligenza artificiale? Avete già stabilito delle linee guida o delle best practice per la formulazione dei prompt?
+2. La creazione e l'addrestramento dei modelli richiede normalmente un dataset ampio e HW prestante (soprattutto durante la fase training). Queste componenti, in che modo verrebbero fornite?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
