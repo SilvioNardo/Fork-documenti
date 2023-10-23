@@ -60,6 +60,7 @@
 2. Come dovremmo interfacciarci poi con Carbonio per iniziare l'implementazione di JMAP?
 3. Poiché i requisiti minimi per l'installazione on-premise sono significativi, sarà possibile testare l'integrazione su una versione cloud del prodotto?
 
+> Il capitolato si propone di esplorare nuovi sviluppi nella comunicazione e-mail, probabilmente la tecnologia di comunicazione più utilizzata al mondo.
 
 ## C9 ChatSQL
 1. Quali tecniche specifiche di ingegneria del prompt prevedete di utilizzare per ottimizzare le interazioni con i modelli di intelligenza artificiale? Avete già stabilito delle linee guida o delle best practice per la formulazione dei prompt?
