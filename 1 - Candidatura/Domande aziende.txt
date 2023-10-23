@@ -1,3 +1,5 @@
+# Domande per i proponenti
+
 ## C1 Knowledge Management
 1. A quanto ammonta la mole di documentazione su cui il modello deve essere in grado di rispondere? E qual è il livello di precisione della risposta voluto?
 2. L'interfacciamento tra OpenAI e il vector Database come può avvenire?
