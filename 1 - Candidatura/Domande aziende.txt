@@ -1,18 +1,18 @@
 ## C1 Knowledge Management
 1. A quanto ammonta la mole di documentazione su cui il modello deve essere in grado di rispondere? E qual è il livello di precisione della risposta voluto?
-2. L'interfacciamento tra OpenAI e il vector Database come può avvenire? 
+2. L'interfacciamento tra OpenAI e il vector Database come può avvenire?
 3. Per quanto riguarda la "chat history" menzionata nello schema nelle slide del capitolato, per ogni utente deve essere gestita anche la possibilità di riprendere chat interrotte e più chat contemporaneamente (stile chatGPT).
-4. è richiesto anche un qualche tipo di testing per il codice generato? 
+4. è richiesto anche un qualche tipo di testing per il codice generato?
 5. La risposta data dall'applicazione deve anche contenere immagini?
 
-> Il capitolato si concentra molto sull'utilizzo di tecnologie moderne come l'intelligenza artificiale, offrendo spunti implementativi con finalità pratiche e di assistenza all'utente finale. 
+> Il capitolato si concentra molto sull'utilizzo di tecnologie moderne come l'intelligenza artificiale, offrendo spunti implementativi con finalità pratiche e di assistenza all'utente finale.
 
 
 ## C2 Sistema di raccomandazione
 1. La creazione e l'addrestramento dei modelli richiede normalmente un dataset ampio e HW prestante (soprattutto durante la fase training). Queste componenti, in che modo verrebbero fornite?
 2. Qual è il livello di complessità matematica del modello richiesto per soddisfare le richieste del capitolato?
 
-> Opinioni personali: il capitolato verta sull'utilizzo di modelli di apprendimento al fine di creare un sistema di raccomandazione di prodotti ideale e mirato per ogni utente. 
+> Opinioni personali: il capitolato verta sull'utilizzo di modelli di apprendimento al fine di creare un sistema di raccomandazione di prodotti ideale e mirato per ogni utente.
 
 
 ## C3 Easy Meal
@@ -22,7 +22,7 @@
 4. Per la chat è necessaria cifratura end to end e anche persistenza dei dati?
 5. Pensate che Flutter sia un buon framework da utilizzare per questo capitolato?
 
-> Il capitolato è molto corposo e ben strutturato. Le richieste sono molteplici ma il tema trattato è estemamente interessante. Il prodotto risulterebbe un applicativo utile e semplice da utilizzare, con vari aspetti Social e di interazione anche con altri utenti. 
+> Il capitolato è molto corposo e ben strutturato. Le richieste sono molteplici ma il tema trattato è estemamente interessante. Il prodotto risulterebbe un applicativo utile e semplice da utilizzare, con vari aspetti Social e di interazione anche con altri utenti.
 
 ## C4 Nuvolaris
 1. Cosa rende Nuvolaris cosi adatto a scrivere API?
@@ -58,42 +58,3 @@
 2. La creazione e l'addrestramento dei modelli richiede normalmente un dataset ampio e HW prestante (soprattutto durante la fase training). Queste componenti, in che modo verrebbero fornite?
 3. In che standard devono essere costruite le frasi SQL?
 4. È possibile ricevere risorse per formarsi meglio sulla formulazione dei prompt?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
