@@ -32,6 +32,8 @@
 3. Il plugin deve poter modificare la configurazione dello stack (e quindi accedere al backend Nuvolaris) anche dopo il termine della prima sessione?
 4. Cosa deve succedere ogni volta che l'utente chiede la modifica di un'app? L'app esistente deve essere aggiornata oppure viene scartata in favore di una nuova istanza?
 
+> Il capitolato si propone di ridurre, tramite IA, la barriera in ingresso per la gestione di setup di cloud computing complessi e normalmente riservati ad utenti esperti.
+
 ## C5 Magazzino 3D
 1. Al fine di poter rappresentare i prodotti su ogni scaffale, le informazioni relative a dimensioni e posizionamento sono reperibili da database già popolati?
 2. Il sistema di codifica in righe/colonne può essere determinato direttamente da noi o deve essere modificabile dall'utente?
