@@ -58,6 +58,7 @@
 ## C8 JMAP
 1. Quali sono le limitazioni o i problemi con IMAP che l’azienda spera di superare con l’adozione di JMAP?
 2. Come dovremmo interfacciarci poi con Carbonio per iniziare l'implementazione di JMAP?
+3. Poiché i requisiti minimi per l'installazione on-premise sono significativi, sarà possibile testare l'integrazione su una versione cloud del prodotto?
 
 
 ## C9 ChatSQL
