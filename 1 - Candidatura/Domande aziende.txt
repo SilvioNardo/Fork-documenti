@@ -26,6 +26,7 @@
 
 > Il capitolato è molto corposo e ben strutturato. Le richieste sono molteplici ma il tema trattato è estemamente interessante. Il prodotto risulterebbe un applicativo utile e semplice da utilizzare, con vari aspetti Social e di interazione anche con altri utenti.
 
+
 ## C4 Nuvolaris
 1. Cosa rende Nuvolaris cosi adatto a scrivere API?
 2. La documentazione è da ritenersi completa nella sua versione 0.3.0 beta attualmente disponibile?
@@ -33,6 +34,7 @@
 4. Cosa deve succedere ogni volta che l'utente chiede la modifica di un'app? L'app esistente deve essere aggiornata oppure viene scartata in favore di una nuova istanza?
 
 > Il capitolato si propone di ridurre, tramite IA, la barriera in ingresso per la gestione di setup di cloud computing complessi e normalmente riservati ad utenti esperti.
+
 
 ## C5 Magazzino 3D
 1. Al fine di poter rappresentare i prodotti su ogni scaffale, le informazioni relative a dimensioni e posizionamento sono reperibili da database già popolati?
@@ -48,6 +50,7 @@
 
 ## C6 SyncCity
 1. Grafana è requisito fondamentale o sono accettati anche altre piattaforme di data visualization?
+
 
 ## C7 ChatGPT vs BedRock
 1. Non essendo in grado di accedere direttamente a github, come dovrebbe avvenire l'analisi del codice da parte di chatgpt?
