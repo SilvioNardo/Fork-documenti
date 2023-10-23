@@ -3,6 +3,7 @@
 2. L'interfacciamento tra OpenAI e il vector Database come può avvenire? 
 3. Per quanto riguarda la "chat history" menzionata nello schema nelle slide del capitolato, per ogni utente deve essere gestita anche la possibilità di riprendere chat interrotte e più chat contemporaneamente (stile chatGPT).
 4. è richiesto anche un qualche tipo di testing per il codice generato? 
+5. La risposta data dall'applicazione deve anche contenere immagini?
 
 > Il capitolato si concentra molto sull'utilizzo di tecnologie moderne come l'intelligenza artificiale, offrendo spunti implementativi con finalità pratiche e di assistenza all'utente finale. 
 
@@ -19,6 +20,7 @@
 2. In caso non ci fosse alcun limite di tempo di accettazione, le richieste, qualora fossero per un giorno futuro, possono essere inviate anche fuori l'orario di apertura dell'attività?
 3. Esiste una casisistica riguardante il caso in cui dopo la prenotazione nessuno si presenti al locale?
 4. Per la chat è necessaria cifratura end to end e anche persistenza dei dati?
+5. Pensate che Flutter sia un buon framework da utilizzare per questo capitolato?
 
 > Il capitolato è molto corposo e ben strutturato. Le richieste sono molteplici ma il tema trattato è estemamente interessante. Il prodotto risulterebbe un applicativo utile e semplice da utilizzare, con vari aspetti Social e di interazione anche con altri utenti. 
 
@@ -32,6 +34,7 @@
 4. Chi è il destinatario di un'eventuale richiesta di spostamento di un prodotto da uno scaffale all'altro? Al fine dello spostamento quindi vi è una notifica che conferma lo spostamento?
 5. Ai fini di sviluppo, come posso essere implementati test intensivi per un prodotto prettamente grafico? Consigliereste quale libreria o qualche approccio?
 6. Per eventuali difficoltà nella modellazione 3d di alcuni elementi, è possibile chiedere un aiuto all'azienda?
+7. Le corsie del magazzino devono avere delle dimensioni minime?
 
 > Il capitolato risulta estremamente interessante. Il prodotto finale rappresente un applicativo pratico e funzionale che apre la possibilità di modernizzare la gestione e l'organizzazione di magazzi di piccole, medie e grandi dimensioni. La possibilità di lavorare con strumenti grafici 3d rende il capitolato molto affascinante e rappresenta un stimolo per ogni membro del gruppo ad impegnarsi nel suo sviluppo.
 
@@ -53,7 +56,8 @@
 ## C9 ChatSQL
 1. Quali tecniche specifiche di ingegneria del prompt prevedete di utilizzare per ottimizzare le interazioni con i modelli di intelligenza artificiale? Avete già stabilito delle linee guida o delle best practice per la formulazione dei prompt?
 2. La creazione e l'addrestramento dei modelli richiede normalmente un dataset ampio e HW prestante (soprattutto durante la fase training). Queste componenti, in che modo verrebbero fornite?
-3. 
+3. In che standard devono essere costruite le frasi SQL?
+4. È possibile ricevere risorse per formarsi meglio sulla formulazione dei prompt?
 
 
 
