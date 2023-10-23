@@ -53,6 +53,7 @@
 1. Non essendo in grado di accedere direttamente a github, come dovrebbe avvenire l'analisi del codice da parte di chatgpt?
 2. Una volta generate le epic & user stories, come possiamo valutarne la bontà rispetto alle aspettative?
 3. E' possibile ottenere maggiori informazioni riguardo l’architettura basata su microservizi e lo sviluppo dei plugin?
+4. Lo sviluppo del plugin per Xcode richiede l'accesso ad una macchina MacOS. Come si può fare?
 
 
 ## C8 JMAP
