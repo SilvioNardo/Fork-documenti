@@ -28,6 +28,9 @@
 
 ## C4 Nuvolaris
 1. Cosa rende Nuvolaris cosi adatto a scrivere API?
+2. La documentazione è da ritenersi completa nella sua versione 0.3.0 beta attualmente disponibile?
+3. Il plugin deve poter modificare la configurazione dello stack (e quindi accedere al backend Nuvolaris) anche dopo il termine della prima sessione?
+4. Cosa deve succedere ogni volta che l'utente chiede la modifica di un'app? L'app esistente deve essere aggiornata oppure viene scartata in favore di una nuova istanza?
 
 ## C5 Magazzino 3D
 1. Al fine di poter rappresentare i prodotti su ogni scaffale, le informazioni relative a dimensioni e posizionamento sono reperibili da database già popolati?
