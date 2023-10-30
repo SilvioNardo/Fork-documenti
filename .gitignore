@@ -1,4 +1,4 @@
-#ignora tutti i file creati dal compilatore Latex che non sia .pdf
+# Ignora tutti i file ausiliari creati dal compilatore LaTeX
 *.aux
 *.fdb_latexmk
 *.fls
