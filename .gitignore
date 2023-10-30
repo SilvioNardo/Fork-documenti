@@ -4,6 +4,6 @@
 *.fls
 *.log
 *.gz
-*.tex
+#*.tex
 template.pdf
 template.tex
