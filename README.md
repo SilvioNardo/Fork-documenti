@@ -10,14 +10,14 @@ Università degli Studi di Padova
 
 ## Componenti del Gruppo
 
-| Nominativo       |
-| ---------------- |
-| Antonio Oseliero |
-| Alessio Banzato  |
-| Riccardo Carraro |
-| Giovanni Gardin  |
-| Rosario Zaccone  |
-| Silvio Nardo     |
-| Mattia Todesco   |
+| Nome             | Matricola |
+| ---------------- | --------- |
+| Antonio Oseliero | 1226325   |
+| Alessio Banzato  | 2042381   |
+| Riccardo Carraro | 2042346   |
+| Giovanni Gardin  | 2010003   |
+| Rosario Zaccone  | 2043680   |
+| Silvio Nardo     | 1222011   |
+| Mattia Todesco   | 1193375   |
 
 E-mail: error418swe@gmail.com
