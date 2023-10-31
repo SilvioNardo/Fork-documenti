@@ -30,9 +30,8 @@ Il gruppo si dota dei seguenti strumenti a supporto delle attività di progetto.
 - Discord: piattaforma di messagistica istantanea e videocalling ad uso interno;
 - Gmail: posta elettronica ufficiale, utilizzata per tutte le comunicazioni scritte ad uso esterno;
 - Zoom: videocalling ad uso esterno (verso proponente e committente);
-- Loom: condivisione di brevi video on-demand, ad uso ambivalente.
-- Miro:
-- Eraser:
+- Loom: condivisione di brevi video on-demand, ad uso ambivalente;
+- Miro: collaborazione su lavagna digitale, utilizzata per retrospettiva;
 
 ## Principi
 
@@ -151,7 +150,36 @@ In base a quanto stabilito durante la riunione interna del 29/10/2023, il gruppo
 Le modifiche apportate da ciascun commit devono essere atomiche.
 
 ```
-Inserire documento Netlifter
+Convenzioni Git
+Perché scrivere buoni commit ripaga
+I messaggi di commit scritti bene servono ad almeno tre scopi:
+
+- velocizzare il processo di review.
+- ci aiutano a scrivere dei buoni changelog.
+- aiutano nella manutenzione. Chi si ricorda perché ha fatto una modifica al codice due anni fa?
+
+https://imgs.xkcd.com/comics/git_commit.png
+
+I messaggi di commit sono importanti.
+
+Il commit non è un contenitore dove buttare dentro ogni modifica. Suddividiamoli con logica; almeno finché non li tasseranno.
+
+Consigli
+Se hai difficoltà a riassumere le modifiche in modo conciso, forse è perché include cambiamenti o bugfix diversi che andrebbero separati.
+Errori comuni
+Ecco alcuni esempi negativi da evitare:
+
+Non pushare un commit contenente tutte le modifiche fatte durante la giornata. Git non è un sistema di backup.
+Un commit per ciascun file: una modifica che interessa più file non dovrebbe essere divisa tra più commit.
+Messaggi di commit con etichette imprecise e/o pigri.
+Commit che raggruppano modifiche autonome, che dovrebbero avere ciascuna il proprio commit. Ad esempio: "Fixed bug 2345 and renamed all files" non ha senso di esistere e complica la vita quando è ora di stanare un bug.
+Modifiche ai caratteri di spaziatura e tabulazione vanno in un commit a parte.
+Code drop: copia-incolla di centinaia di linee di codice che sovrascrivono l'intero contenuto del file. Bello, ma non si fa perché le modifiche devono avvenire gradualmente.
+Riferimenti alle linee guida
+- [git-scm.com](https://www.git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#_commit_guidelines).
+- [On commit messages](http://who-t.blogspot.com/2009/12/on-commit-messages.html).
+- [A Note About Git Commit Messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+- [How to write a git commit message](https://cbea.ms/git-commit/).
 ```
 
 ### Pull Request
