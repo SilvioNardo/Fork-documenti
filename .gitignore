@@ -1,0 +1,8 @@
+# Ignora tutti i file ausiliari creati dal compilatore LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.gz
+*.out
+*.toc

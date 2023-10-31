@@ -1,0 +1,132 @@
+\documentclass[a4paper, twoside]{article}
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1cm]{geometry}
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=false, allcolors=black]{hyperref}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{caption}
+%------------------------
+\title{\Huge Preventivo Costi}
+\author{Error\_418}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\setlength {\marginparwidth }{2cm}
+%%page number
+\pagestyle{plain}
+%---------------
+\begin{document}
+\sffamily
+\begin{titlepage}
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+\centering
+\includegraphics[width=8cm]{logo.png}\\[1.5cm]
+%----------------------------------------------------------------------------------------
+\center % Center everything on the page
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+\textsf{\Large ERROR\_418}\\[0.5cm]
+\textsf{\Large DOCUMENTAZIONE PROGETTO}\\[0.5cm]
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+\makeatletter
+\HRule \\[0.4cm]
+{ \huge \bfseries \@title}\\[0.4cm]
+\HRule \\[1.5cm]
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{center} % Centro delle sezioni Redattore e Validatori
+    \Large
+    \setlength{\extrarowheight}{9pt}
+    \raggedright
+    \begin{tabularx}{0.9\textwidth} [right] {
+            >{\raggedright\arraybackslash}X
+            >{\raggedright\arraybackslash}X
+        }
+        Mail:           & error418swe@gmail.com                              \\
+        Redattori:      & Antonio Oseliero, Alessio Banzato                  \\
+        Verificatori:   & Riccardo Carraro, Giovanni Gardin, Rosario Zaccone \\
+        Amministratori: & Silvio Nardo, Mattia Todesco                       \\
+        Destinatari:    & T. Vardanega, R. Cardin
+    \end{tabularx}
+\end{center}
+
+\vfill % Fill the rest of the page with whitespace
+\end{titlepage}
+\large
+
+\newpage % Vai alla pagina successiva
+
+%%%%%%%%%%%%%%% SEZIONE CONTENUTO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Analisi preliminare}
+\large{A seguito di una quanto più accurata analisi relativa al carico di lavoro e al monte ore necessario al suo svolgimento, il gruppo Error\_418 ha individuato tre periodi di sviluppo fondamentali, quali:}
+\begin{itemize}
+    \item Periodo raccolta e analisi dei requisiti;
+    \item Periodo di sviluppo della Requirements and Technologies Baseline;
+    \item Periodo di sviluppo del Minimun Viable Product (MVP).
+\end{itemize}
+
+\subsection{Periodo raccolta e analisi dei requisiti}
+In questo periodo, il ruolo centrale è svolto dagli analisti, che mediante un costante e produttivo rapporto con l'azienda delineeranno i requisiti che il prodotto finale dovrà possedere, soffermandosi nel carpirne dettagli, delimitazioni e standard di accetazione.
+
+\subsection{Periodo di sviluppo della Requirements and Technologies Baseline}
+A seguito del risultato prodotto nella fase precedente di analisi dei requisiti, ampio spazio sarà dedicato alla progettazione e all'utilizzo pratico delle tecnologie necessarie allo sviluppo, dimostrando la loro validità e funzionalità. \\
+Il prodotto finale di questa fase sarà il Proof of Concept dimostrante la concreta possibilità di poter utilizzare le tecnologie in modo cooperante tra loro.
+
+\subsection{Periodo di sviluppo del Minimun Viable Product (MVP)}
+Dimostrata la concreta possibilità implementativa mediante il Proof of Concept, il gruppo impiegherà le risorse nella realizzazione materiale di un prodotto software atto al soddisfacimento \textit{almeno} dei requisiti minimi di accettazione, fornendo tutte le funzionalità richieste per essere considerato valido, ponendo attenzione non solo al lato funzionale ma anche, e soprattutto, al lato implementativo.
+
+\subsection{Amministratori, Responsabili e Verificatori}
+Amministratori, responsabili e verificatori sono ruoli che accompagneranno l'intero sviluppo, presenti in ogni periodo precedentemente descritto e con responsabilità ben definite. Il loro ruolo sarà delineare le linee di sviluppo che il gruppo dovrà mantenere durante l'avanzamento del progetto, il rispetto delle norme del way of working e verificare che quanto prodotto sia conforme nei confronti di quanto pianificato e di quanto richiesto.
+
+\section{Preventivo dei Costi}
+\begin{center}
+    \begin{tabular}{ |c|c|c|c|c|c|c|c| }
+        \hline
+        \textbf{Membro} & \textbf{Resp.} & \textbf{Ammin.} & \textbf{Analista} & \textbf{Prog.} & \textbf{Program.} & \textbf{Verifi.} & \textbf{Totale} \\
+        \hline
+        Alessio & 15 & 10 & 10 & 14 & 28 & 18 & 95 \\
+        \hline
+        Antonio & 15 & 10 & 10 & 14 & 28 & 18 & 95 \\
+        \hline
+        Giovanni & 15 & 10 & 10 & 14 & 28 & 18 & 95 \\
+        \hline
+        Mattia & 15 & 10 & 10 & 14 & 28 & 18 & 95 \\
+        \hline
+        Riccardo & 15 & 10 & 10 & 14 & 28 & 18 & 95 \\
+        \hline
+        Rosario & 15 & 10 & 10 & 14 & 28 & 18 & 95 \\
+        \hline
+        Silvio & 15 & 10 & 10 & 14 & 28 & 18 & 95 \\
+        \hline
+        \hline
+        \textbf{Totale Ore} & 105 & 70 & 70 & 98 & 196 & 126 & 665 \\
+        \hline
+        \textbf{Costo Orario} (€) & 30,00 & 20,00 & 25,00 & 15,00 & 15,00 & 30,00 &  \\
+        \hline
+        \textbf{Costo Ruolo} (€) & 3.150,00 & 1.400,00 & 1.720,00 & 2.450,00 & 2.940,00 & 1.890,00 & \\
+        \hline
+        \multicolumn{8}{|c|}{ \textbf{Totale preventivato: € 13.580,00}} \\
+        \hline
+    \end{tabular}
+\end{center} 
+
+\vspace{1cm}
+\noindent
+Cordiali saluti,\\
+\textit{Error\_418} - Gruppo 7 di Ingegneria del Software
+\end{document}
