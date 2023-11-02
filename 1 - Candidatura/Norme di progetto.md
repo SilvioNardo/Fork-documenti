@@ -184,3 +184,26 @@ Riferimenti alle linee guida
 
 ### Pull Request
 
+L'integrazione di funzionalità, bug fix e rilasci avviene secondo il concetto di Continous Integration.
+
+Per integrare un ramo di sviluppo, i membri si impegnano ad utilizzare la funzione di Pull Request (PR) offerta da GitHub.
+
+Ogni PR dovrà riguardare un singolo aspetto, secondo le regole date per il branching.
+
+Per potere essere integrata, una PR dovrà:
+
+1. essere approvata da almeno un verificatore
+1. superare tutti i test previsti
+
+Qualora almeno uno dei due vincoli non fosse soddisfatto, l'integrazione non potrà avvenire. Sarà cura dell'autore e del verificatore individuare soluzioni per soddisfare i vincoli di integrazione.
+
+Al termine della procedura di merging, si suggerisce la cancellazione del branch integrato per mantenere il repository ordinato e manutenibile.
+
+Caratteristiche delle PR. Ogni PR dovrà avere:
+
+1. titolo significativo
+1. il codice di riferimento alla issue risolta o implementata
+1. una descrizione, anche breve, dell'oggetto della PR. Indicare, se necessario, le scelte implementative, i riferimenti ai verbali e ogni altra informazione utile ai fini della verifica.
+1. assegnatario
+1. verificatore (almeno uno)
+1. categoria (almeno una)
