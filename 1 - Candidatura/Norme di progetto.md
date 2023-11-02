@@ -139,7 +139,7 @@ Il gruppo si munisce di due repository pubblici:
 1. **Documenti** contiene la documentazione prodotta ai fini di progetto e non direttamente legata al software prodotto;
 1. **WMS3** contiene il software e la relativa documentazione di supporto.
 
-Ogni membro ha accesso in lettura e scrittura ai contenuti dei repository.
+Ogni membro ha accesso in lettura e scrittura ai contenuti dei repository, secondo le modalità previste per l'integrazione.
 
 ### Branching
 
