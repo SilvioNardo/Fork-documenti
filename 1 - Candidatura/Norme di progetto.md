@@ -1,13 +1,13 @@
 # Norme di progetto
 
 TODO:
-- [ ] strumenti
+- [x] strumenti
 - [ ] git
 - [ ] riunioni
-- [ ] buone pratiche
+- [x] buone pratiche
 - [ ] comunicazione con proponente
 - [ ] monitoraggio
-- [ ] feedback interno
+- [x] feedback interno
 - [ ] team mission
 - [ ] versioning
 - [ ] do's and dont's
@@ -111,18 +111,20 @@ I numeri di versione vengono incrementati di una unità con queste regole:
 ### Feedback esterno
 
 Il feedback ricevuto dal proponente o dal committente deve necessariamente essere discusso alla prima riunione utile.
-Le segnalazioni ricevute durante gli incontri vengono documentate nel relativo verbale esterno.
+Le segnalazioni ricevute durante gli incontri vengono documentate nel relativo verbale esterno, assieme ai risultati della relativa discussione.
 
 ### Feedback interno
 
 Tutte le riunioni sono occasione di condivisione con il team o il gruppo di lavoro.
 
 Il gruppo analizza la segnalazione e, se giudicata significativa, si adopera per risolverla o implementarla. È compito del Responsabile, sentito l'Amministratore, e sempre in comune accordo con almeno il segnalatore, individuare e attuare soluzioni adeguate.
+
 Le segnalazioni e le eventuali misure adottate vengono documentate nel relativo verbale interno.
 
-1. Consuntivo di periodo: serve a migliorare la pianificazione futura
-1. Retrospettiva: serve a riconoscere ciò che ha funzionato e ciò che no + motivazioni.
-	1. Un buon modo di fare è individuare i "keep doings" e gli "improvements"
+Ogni settimana, al termine di ciascuno sprint e in data e ora concordate, il gruppo si riunisce in sessione collegiale per un incontro durante il quale affronta:
+
+1. Retrospettiva: è un momento di confronto atto ad individuare comportamenti e procedure funzionali o da migliorare. A questo scopo, ogni membro del gruppo avrà aggiunto alla lavagna digitale (Miro) le proprie opinioni su Keep doing e Improvements sotto forma di post-it digitali. L'aggiunta di queste informazioni dovrà avvenire obbligatoriamente prima della riunione ed essere brevemente giustificata durante la riunione.
+1. Consuntivo di periodo: è una valutazione dell'operato del gruppo nel corso dello sprint appena concluso. Il suo scopo è migliorare la pianificazione futura.
 
 ### Buone norme
 
