@@ -147,6 +147,12 @@ Ogni membro ha accesso in lettura e scrittura ai contenuti dei repository, secon
 
 In base a quanto stabilito durante la riunione interna del 29/10/2023, il gruppo adotta una metodologia standard per la gestione dei branch di sviluppo.
 
+In particolare, la metodologia adottata prevede l'uso di:
+
+- branch `main`, principale
+- branch `develop`, di sviluppo
+- branch di funzionalità, per lo sviluppo di funzionalità atomiche e indipendenti (inclusi i bug fix)
+
 ### Commit
 
 Le modifiche apportate da ciascun commit devono essere atomiche.
@@ -164,7 +170,9 @@ https://imgs.xkcd.com/comics/git_commit.png
 
 I messaggi di commit sono importanti.
 
-Il commit non è un contenitore dove buttare dentro ogni modifica. Suddividiamoli con logica; almeno finché non li tasseranno.
+È inutile scrivere "aggiornato readme", perché il VCS segnala già quali file sono stati modificati. È bene invece indicare le ragioni o lo scopo del commit.
+
+Il commit non è un contenitore dove buttare dentro ogni modifica. Suddividiamoli con logica e facciamone tanti, almeno finché non li tasseranno.
 
 Consigli
 Se hai difficoltà a riassumere le modifiche in modo conciso, forse è perché include cambiamenti o bugfix diversi che andrebbero separati.
@@ -204,7 +212,7 @@ Al termine della procedura di merging, si suggerisce la cancellazione del branch
 Caratteristiche delle PR. Ogni PR dovrà avere:
 
 1. titolo significativo
-1. il codice di riferimento alla issue risolta o implementata
+1. il codice di riferimento alla issue dell'ITS risolta o implementata
 1. una descrizione, anche breve, dell'oggetto della PR. Indicare, se necessario, le scelte implementative, i riferimenti ai verbali e ogni altra informazione utile ai fini della verifica.
 1. assegnatario
 1. verificatore (almeno uno)
