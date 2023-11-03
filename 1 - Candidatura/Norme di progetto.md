@@ -204,16 +204,31 @@ Per potere essere integrata, una PR dovrà:
 
 1. essere approvata da almeno un verificatore
 1. superare tutti i test previsti
+1. non avere commenti in sospeso
 
-Qualora almeno uno dei due vincoli non fosse soddisfatto, l'integrazione non potrà avvenire. Sarà cura dell'autore e del verificatore individuare soluzioni per soddisfare i vincoli di integrazione.
+Qualora almeno uno dei vincoli non fosse soddisfatto, l'integrazione non potrà avvenire. Sarà cura dell'autore e del verificatore individuare soluzioni congrue per soddisfare i vincoli di integrazione.
 
-Al termine della procedura di merging, si suggerisce la cancellazione del branch integrato per mantenere il repository ordinato e manutenibile.
+Al termine della procedura di merging, si richiede la cancellazione del branch integrato per mantenere il repository ordinato e manutenibile.
 
 Caratteristiche delle PR. Ogni PR dovrà avere:
 
 1. titolo significativo
-1. il codice di riferimento alla issue dell'ITS risolta o implementata
+1. il codice di riferimento alla issue dell'ITS risolta o implementata, eventualmente con relativa parola chiave (fix, close)
 1. una descrizione, anche breve, dell'oggetto della PR. Indicare, se necessario, le scelte implementative, i riferimenti ai verbali e ogni altra informazione utile ai fini della verifica.
 1. assegnatario
 1. verificatore (almeno uno)
 1. categoria (almeno una)
+
+## ITS
+
+### Issue
+
+Caratteristiche delle issue. Ogni issue dovrà avere:
+
+1. titolo significativo. La prima parola dev'essere un verbo coniugato all'infinito
+1. stima dell'impegno richiesto
+1. categoria
+
+e, opzionalmente:
+
+1. descrizione, qualora il titolo non risultasse sufficientemente chiaro o fossero richieste maggiori dettagli
