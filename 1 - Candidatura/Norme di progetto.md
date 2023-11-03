@@ -104,7 +104,7 @@ I numeri di versione vengono incrementati di una unità con queste regole:
 
 - X: quando le modifiche riguardano almeno il 30% del documento;
 - Y: quando avvengono modifiche sostanziali (aggiunta di paragrafi);
-- Z: per correzioni di minore entità (come correzione typo).
+- Z: per correzioni di minore entità (come correzione di errori ortografici).
 
 ## Feedback
 
@@ -138,7 +138,7 @@ Le modalità di utilizzo del VCS sono prestabilite in sessione collettiva e adot
 
 Il gruppo si munisce di due repository pubblici:
 
-1. **Documenti** contiene la documentazione prodotta ai fini di progetto e non direttamente legata al software prodotto;
+1. **Documenti** contiene la documentazione prodotta ai fini del progetto didattico;
 1. **WMS3** contiene il software e la relativa documentazione di supporto.
 
 Ogni membro ha accesso in lettura e scrittura ai contenuti dei repository, secondo le modalità previste per l'integrazione.
