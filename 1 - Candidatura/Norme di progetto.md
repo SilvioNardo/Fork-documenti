@@ -99,7 +99,7 @@ X.Y.Z
 
 I numeri di versione vengono incrementati di una unità con queste regole:
 
-- X: quando le modifiche riguardano almeno il 50% del documento;
+- X: quando l'organizzazione delle informazioni nel documento cambia;
 - Y: quando avvengono aggiunte o modifiche sostanziali (come l'aggiunta o la riscrittura di un paragrafo);
 - Z: per correzioni di minore entità (come correzione di errori ortografici o di stile).
 
