@@ -15,7 +15,7 @@ TODO:
 
 ## Strumenti
 
-Il gruppo si dota dei seguenti strumenti a supporto delle attività di progetto. Tutti gli strumenti sono stati adottati in maniera definitiva o fino ad alterate necessità, durante la riunione del 00/11/2023.
+Il gruppo si dota dei seguenti strumenti a supporto delle attività di progetto. Tutti gli strumenti sono stati adottati in maniera definitiva o fino ad alterate necessità, durante la riunione del 05/11/2023.
 
 ### Version Control System (VCS)
 
@@ -29,28 +29,21 @@ Il gruppo si dota dei seguenti strumenti a supporto delle attività di progetto.
 
 - Discord: piattaforma di messagistica istantanea e videocalling ad uso interno;
 - Gmail: posta elettronica ufficiale, utilizzata per tutte le comunicazioni scritte ad uso esterno;
-- Zoom: videocalling ad uso esterno (verso proponente e committente);
 - Loom: condivisione di brevi video on-demand, ad uso ambivalente;
 - Miro: collaborazione su lavagna digitale, utilizzata per retrospettiva;
+- Zoom: videocalling ad uso esterno (verso proponente e committente);
 
 ## Principi
 
 La comunicazione è aperta, onesta, proattiva e frequente.
 Il monitoraggio è chiave.
-In tutti gli scenari si vuole evitare la necessità di "polling" tra membri del gruppo. Lo stato attuale del progetto dev'essere sempre consultabile tramite il sistema ITS adottato.
+In tutti gli scenari si vuole evitare la necessità di "polling" tra membri del gruppo. Lo stato corrente del progetto dev'essere sempre consultabile tramite il sistema ITS adottato.
 
 ### Aperta
 
 Le comunicazioni avvengono in modalità pubblica, ovvero tutti i membri possono partecipare (compatibilmente con i loro impegni di progetto e sempre nel rispetto delle rispettive responsabilità).
 
 I membri del gruppo hanno accesso e possono liberamente consultare i messaggi, le eventuali registrazioni e i verbali.
-
-I verbali delle riunioni vengono pubblicati, secondo disciplina, entro 18 ore dal termine della riunione. Contengono:
-- riferimenti del gruppo (nel frontespizio);
-- partecipanti alla riunione e durata dell'intervento;
-- l'ordine del giorno;
-- il riassunto della riunione;
-- una lista di azioni da attuare a seguito della riunione.
 
 ### Onesta
 
@@ -62,35 +55,39 @@ Affrontare le riunioni con preparazione, cercando di offrire spunti concreti di 
 
 ### Frequente
 
-Fornire al proponente aggiornamenti almeno settimanali sul progresso, utilizzando la casella e-mail del gruppo. Gli aggiornamenti vengono preferibilmente forniti in modalità differita, se necessario sfruttando servizi di video on-demand.
+Fornire al proponente aggiornamenti almeno bi-settimanali sul progresso, utilizzando la casella e-mail del gruppo. Gli aggiornamenti vengono preferibilmente forniti in modalità differita, se necessario sfruttando servizi di video on-demand.
 
 
 ## Comunicazioni
 
 ### Interne
 
-Le riunioni tra i membri del gruppo avvengono su Discord, sia in modalità testuale che in video chiamata. A seguito di ciascuna riunione viene prodotto un verbale secondo le regole descritte nell'apposita sezione.
+Le comunicazioni tra i membri del gruppo avvengono su Discord, sia in modalità testuale che in video chiamata.
+Le riunioni avvengono in presenza oppure in video chiamata. A seguito di ciascuna riunione viene prodotto un verbale secondo le regole descritte nell'apposita sezione.
 
 La comunicazione tra i membri può avvenire in modalità collegiale oppure one-to-one.
 
-Le comunicazioni relative ad ogni elemento che richieda VCS avvengono per iscritto tramite l'ITS preposto. Le comunicazioni che riguardano l'implementazione sono preferibilmente differite; i singoli membri sono comunque liberi di organizzare sessioni di lavoro collettive e informali, senza richiedere l'intervento del Responsabile.
+Le comunicazioni relative ad ogni elemento che richieda VCS avvengono per iscritto tramite le funzionalità offerte dall'ITS preposto. Le comunicazioni che riguardano l'implementazione sono preferibilmente differite; i singoli membri sono comunque liberi di organizzare sessioni di lavoro collettive e informali, senza richiedere l'intervento del Responsabile.
 
 ### Esterne
 
-I contatti con proponente e committente avvengono tramite e-mail, esclusivamente tramite l'indirizzo del gruppo, o su piattaforme di videochiamata individuate di comune accordo.
+I contatti con proponente e committente avvengono tramite e-mail, esclusivamente tramite l'indirizzo del gruppo, o su piattaforme di videochiamata con tempi e modi individuati di comune accordo.
 
 Si sottolinea l'importanza di una comunicazione che rispetti i principi chiave delineati.
 
 Le modalità e la frequenza delle comunicazioni con proponente e committente sono da stabilirsi con i diretti interessati, secondo necessità e disponibilità degli interlocutori.
 
-I verbali delle riunioni vengono pubblicati, secondo disciplina, entro 18 ore dal termine della riunione. Contengono:
+## Verbali
+
+I verbali delle riunioni vengono prodotti, secondo disciplina, entro 18 ore dal termine della riunione. Contengono:
 - riferimenti del gruppo (nel frontespizio);
 - destinatari;
 - partecipanti alla riunione e durata dell'intervento;
 - l'ordine del giorno;
-- il riassunto della riunione;
-- (se rivolto al proponente) un campo di firma per la convalida.
-Contestualmente alla pubblicazione del verbale esterno, il Responsabile si impegna a comunicare all'attore esterno la disponibilità del documento. Nel caso di verbali riguardanti i rapporti con il proponente, è richiesta la validazione tramite ack o firma.
+- il riassunto della riunione e delle decisioni prese, suddiviso in sezioni e paragrafi per agevolarne la scansione;
+- una lista di azioni da attuare a seguito della riunione;
+- (se rivolto al proponente) la firma per la validazione.
+A seguito della verifica del verbale esterno, il Responsabile si impegna a comunicare al proponente la disponibilità del documento e a richiederne la validazione tramite firma. Una volta validato, il documento può essere pubblicato.
 
 ## Documenti
 
@@ -102,9 +99,9 @@ X.Y.Z
 
 I numeri di versione vengono incrementati di una unità con queste regole:
 
-- X: quando le modifiche riguardano almeno il 30% del documento;
-- Y: quando avvengono modifiche sostanziali (aggiunta di paragrafi);
-- Z: per correzioni di minore entità (come correzione di errori ortografici).
+- X: quando le modifiche riguardano almeno il 50% del documento;
+- Y: quando avvengono aggiunte o modifiche sostanziali (come l'aggiunta o la riscrittura di un paragrafo);
+- Z: per correzioni di minore entità (come correzione di errori ortografici o di stile).
 
 ## Feedback
 
@@ -117,14 +114,19 @@ Le segnalazioni ricevute durante gli incontri vengono documentate nel relativo v
 
 Tutte le riunioni sono occasione di condivisione con il team o il gruppo di lavoro.
 
-Il gruppo analizza la segnalazione e, se giudicata significativa, si adopera per risolverla o implementarla. È compito del Responsabile, sentito l'Amministratore, e sempre in comune accordo con almeno il segnalatore, individuare e attuare soluzioni adeguate.
+Ciascun membro è tenuto a segnalare opportunità di miglioramento e criticità. La segnalazione può avvenire durante una qualsiasi riunione interna.
+
+Il gruppo analizza la segnalazione e, se giudicata valida e significativa, si adopera per risolverla o implementarla. È compito del Responsabile, sentito l'Amministratore, e sempre in comune accordo con almeno il segnalatore, individuare e attuare soluzioni adeguate.
 
 Le segnalazioni e le eventuali misure adottate vengono documentate nel relativo verbale interno.
 
 Ogni settimana, al termine di ciascuno sprint e in data e ora concordate, il gruppo si riunisce in sessione collegiale per un incontro durante il quale affronta:
 
-1. Retrospettiva: è un momento di confronto atto ad individuare comportamenti e procedure funzionali o da migliorare. A questo scopo, ogni membro del gruppo avrà aggiunto alla lavagna digitale (Miro) le proprie opinioni su Keep doing e Improvements sotto forma di post-it digitali. L'aggiunta di queste informazioni dovrà avvenire obbligatoriamente prima della riunione ed essere brevemente giustificata durante la riunione.
-1. Consuntivo di periodo: è una valutazione dell'operato del gruppo nel corso dello sprint appena concluso. Il suo scopo è migliorare la pianificazione futura.
+1. Retrospettiva: è un momento di confronto atto ad individuare comportamenti e procedure funzionali o da migliorare. A questo scopo, ogni membro del gruppo avrà aggiunto alla lavagna digitale (Miro) le proprie opinioni su Keep doing e Improvements sotto forma di post-it digitali. L'aggiunta di queste informazioni dovrà avvenire obbligatoriamente prima della riunione e, se richiesto, essere brevemente giustificata durante la riunione.
+1. Consuntivo di periodo: è una valutazione dell'operato del gruppo nel corso dello sprint appena concluso. Il suo scopo è migliorare la pianificazione futura, analizzando tempi, costi e obiettivi raggiunti.
+1. Pianificazione futura: sulla base delle informazioni scaturite durante la riunione, dello stato attuale del progetto e della pianificazione precedente, il gruppo stabilisce le attività da svolgere durante lo sprint successivo.
+
+L'incontro avviene ogni domenica alle ore 15:00 su Discord.
 
 ### Buone norme
 
@@ -141,7 +143,7 @@ Il gruppo si munisce di due repository pubblici:
 1. **Documenti** contiene la documentazione prodotta ai fini del progetto didattico;
 1. **WMS3** contiene il software e la relativa documentazione di supporto.
 
-Ogni membro ha accesso in lettura e scrittura ai contenuti dei repository, secondo le modalità previste per l'integrazione.
+Ogni membro ha accesso in lettura e scrittura ai contenuti dei repository, secondo le modalità previste per l'integrazione dei contributi.
 
 ### Branching
 
@@ -159,12 +161,10 @@ Le modifiche apportate da ciascun commit devono essere atomiche.
 
 ```
 Convenzioni Git
-Perché scrivere buoni commit ripaga
-I messaggi di commit scritti bene servono ad almeno tre scopi:
+I messaggi di commit devono soddisfare questi scopi:
 
-- velocizzare il processo di review.
-- ci aiutano a scrivere dei buoni changelog.
-- aiutano nella manutenzione. Chi si ricorda perché ha fatto una modifica al codice due anni fa?
+- velocizzare il processo di review e di manutenzione.
+- aiutare a scrivere dei changelog significativi.
 
 https://imgs.xkcd.com/comics/git_commit.png
 
@@ -198,19 +198,9 @@ L'integrazione di funzionalità, bug fix e rilasci avviene secondo il concetto d
 
 Per integrare un ramo di sviluppo, i membri si impegnano ad utilizzare la funzione di Pull Request (PR) offerta da GitHub.
 
-Ogni PR dovrà riguardare un singolo aspetto, secondo le regole date per il branching.
+Ogni PR dovrà riguardare un singolo aspetto, secondo le regole date per il branching.in alcun caso
 
-Per potere essere integrata, una PR dovrà:
-
-1. essere approvata da almeno un verificatore
-1. superare tutti i test previsti
-1. non avere commenti in sospeso
-
-Qualora almeno uno dei vincoli non fosse soddisfatto, l'integrazione non potrà avvenire. Sarà cura dell'autore e del verificatore individuare soluzioni congrue per soddisfare i vincoli di integrazione.
-
-Al termine della procedura di merging, si richiede la cancellazione del branch integrato per mantenere il repository ordinato e manutenibile.
-
-Caratteristiche delle PR. Ogni PR dovrà avere:
+Caratteristiche che ogni PR dovrà avere:
 
 1. titolo significativo
 1. il codice di riferimento alla issue dell'ITS risolta o implementata, eventualmente con relativa parola chiave (fix, close)
@@ -219,13 +209,23 @@ Caratteristiche delle PR. Ogni PR dovrà avere:
 1. verificatore (almeno uno)
 1. categoria (almeno una)
 
+Per potere essere integrata, una PR dovrà:
+
+1. essere approvata da almeno un verificatore
+1. superare tutti i test previsti
+1. non avere commenti in sospeso
+
+Qualora almeno uno dei vincoli non fosse soddisfatto, l'integrazione non potrà avvenire. I vincoli di integrazione non possono, per nessuna ragione, essere rilassati al fine di integrare una specifica PR.
+
+Al termine della procedura di merging, si richiede la cancellazione del branch integrato per mantenere il repository ordinato e manutenibile.
+
 ## ITS
 
 ### Issue
 
 Caratteristiche delle issue. Ogni issue dovrà avere:
 
-1. titolo significativo. La prima parola dev'essere un verbo coniugato all'infinito
+1. titolo significativo. La prima parola dev'essere un verbo coniugato all'infinito ("Correggere configurazione Docker")
 1. stima dell'impegno richiesto
 1. categoria
 
